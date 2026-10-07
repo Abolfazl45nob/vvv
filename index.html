@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terraria Helper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1>Terraria Helper</h1>
+      </header>
+
+      <nav class="tabs">
+        <button class="tab active" data-tab="inventory">موجودی</button>
+        <button class="tab" data-tab="crafting">ساختن</button>
+        <button class="tab" data-tab="quests">کوست‌ها</button>
+      </nav>
+
+      <main>
+        <section id="inventory" class="panel active">
+          <h2>موجودی شخصی</h2>
+          <div id="inventory-list"></div>
+        </section>
+
+        <section id="crafting" class="panel">
+          <h2>قابلیت ساخت</h2>
+          <div id="crafting-list"></div>
+        </section>
+
+        <section id="quests" class="panel">
+          <h2>سیستم کوست</h2>
+          <div id="quests-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
